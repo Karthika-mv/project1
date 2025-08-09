@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <style>
+      body{
+        background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("https://as2.ftcdn.net/v2/jpg/03/18/47/91/1000_F_318479118_XX1ON2rG8HlHMOJC6u5zKUdihL2tzgoN.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+       background-attachment: fixed;
+       
+      }
+    </style>
 </head>
 <body>
     <form>
       <div class="form-input">
-        <label for="name">Name: </label>
+        <h1 style="color:white">LOG IN</h1>
+       <div class="input-fields">
+        <div>
+          <h2>Enter Your Details</h2>
+           <label for="name">Name: </label>
         <input type="text" id="name" name="name" placeholder="Enter Your UserName">
-        <label for="password">Password:</label>
+        </div>
+       <div>
+         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter password" >
+        <p>Forgot password?</p>
+       </div>
         <button>Submit</button>
+       </div>
       </div>  
     </form>
 </body>
